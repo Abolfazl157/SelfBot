@@ -1,5 +1,4 @@
 ### Telegram Cli Bot
-### By Dariush!
 <p >
     <a href="https://github.com/xtabahkar/Selfnium">
         <img src="https://i.ibb.co/pXJ9frm/BOgY9ai.png" alt="SelfBot">
@@ -10,7 +9,7 @@
 ### Community 
 </p>
 <p >
-	<a href="https://T.me/lilTkar">
+	<a href="https://T.me/omixoid">
         <img src="https://i.imgur.com/Zze3Olg.png" alt="SelfBot" height="75" width="75">
     </a>
 </p>
