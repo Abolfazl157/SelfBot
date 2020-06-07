@@ -1,6 +1,6 @@
 ### Telegram Cli Bot
 <p >
-    <a href="https://github.com/xtabahkar/Selfnium">
+    <a href="https://github.com/omidev/SelfBot">
         <img src="https://i.ibb.co/pXJ9frm/BOgY9ai.png" alt="SelfBot">
     </a>
 	<br>
