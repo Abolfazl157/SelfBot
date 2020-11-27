@@ -1,6 +1,6 @@
 ### Telegram Cli Bot
 <p >
-    <a href="https://github.com/omidev/SelfBot">
+    <a href="">
         <img src="https://i.ibb.co/pXJ9frm/BOgY9ai.png" alt="SelfBot">
     </a>
 	<br>
@@ -9,7 +9,7 @@
 ### Community 
 </p>
 <p >
-	<a href="https://T.me/omixoid">
+	<a href="https://T.me/ihatelifefuckit">
         <img src="https://i.imgur.com/Zze3Olg.png" alt="SelfBot" height="75" width="75">
     </a>
 </p>
