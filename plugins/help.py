@@ -11,7 +11,7 @@ HELP:
 [Cc]learf
 [Cc]k (remove)
 [Pp]in
-[Rr]eload0 | [Rr]eload1
+[Rr]eload | [Ll]oad
 [Pp]y (run python3 Scripts)
 [Dd] (delete)
 [Pp] [money] (price)

@@ -7,9 +7,28 @@ from db import r
 @Client.on_message(Filters.regex("^[Tt]oday$")& Filters.me)
 def today(app : Client , msg : Message):
 
-    date = jdatetime.datetime.now().strftime('%d %b %Y')
-    clock = clock = requests.get("http://gahshomar-api.herokuapp.com/zone/Asia-Tehran").text[:11]
-    text = f"Clock : **{clock}**\nDate : **{date}**\n#Tkar"
+
+    r = requests.get("https://api.keybit.ir/time/").json()
+
+    time = r["time24"]["full"]["en"]
+    date_shamsi = r["date"]["full"]["official"]["iso"]["en"]
+    month =  r["date"]["month"]["name"]
+    weekday = r["date"]["weekday"]["name"]
+
+    days_left = r["date"]["year"]["left"]["days"]["en"]
+    
+    day = r["date"]["day"]["name"]
+    days = r["date"]["year"]["agone"]["days"]["en"]
+    date_gregorian = r["date"]["other"]["gregorian"]["iso"]["en"]
+
+    text = f"""
+Time : **{time}**
+Shamsi : **{date_shamsi}** |  **{weekday}** **{day}** **{month}**
+Gregorian : **{date_gregorian}**
+Day : **{days}**
+DaysLeft : **{days_left}**
+#Tkar
+    """
     app.edit_message_text(
         chat_id=msg.chat.id,
         message_id=msg.message_id,

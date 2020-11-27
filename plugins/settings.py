@@ -33,7 +33,7 @@ def settings(app : Client ,msg : Message):
 ┏ **ServerSet**: `{"YES" if "ssh" in r.keys() else "NO"}`
 ┣ IP: `{ip}***`
 ┗ PASS: `{"Hide" if "ssh" in r.keys() else "NotServer Seted"}`
-**#Tkar**
+**L**
 """
     app.edit_message_text(text=text,
             chat_id=msg.chat.id,

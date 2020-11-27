@@ -15,7 +15,7 @@ Server System Info
 Used Disk : `{disk_p}%`
 Used Ram : `{ram_p}%`
 Used Cpu  : `{cpu_p}%`
-**#Tkar**
+**L ON THE KODA MADAFAKA**
 """
     app.edit_message_text(text=text,
         chat_id=msg.chat.id,
