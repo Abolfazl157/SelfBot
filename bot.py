@@ -16,8 +16,8 @@ c = config["Config"]
 
 def main():
     plugins = dict(root="plugins")
-    API_ID = int(c["API_ID"])
-    API_HASH = c["API_HASH"]
+    API_ID = int(c["3750984"])
+    API_HASH = c["254bb38ccc890edd096e7260a0fc8567"]
 
     if r.get("password") == None:
         r.set("password", c["DEFAULT_PASSWORD"])
